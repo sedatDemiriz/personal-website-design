@@ -13,7 +13,7 @@ snow-storm:
     #eceff4     lightest
 
 frost:
-    #8fbcbb     greenist
+    #8fbcbb     greenish
     #88c0d0     teal
     #81a1c1     light blue
     #5e81ac     dark blue
@@ -26,30 +26,62 @@ aurora:
     #b48ead     purple
 */
 
-. {
-
+body {
+    background-color: #4c566a;
 }
 
-.title{
+.header{
+    color: #d8dee9;
+}
 
+#segment{
+    color: #d8dee9;
 }
 
 .bio {
-    
+
+}
+
+.bio-text{
+    color: #d8dee9;
 }
 
 .menubar{
 
 }
 
-.resume{
+.menu-list{
+    color: #d8dee9;
+}
 
+#menu-item{
+
+}
+
+.resume{
+    color: #d8dee9;
 }
 
 .projects{
 
 }
 
+.projects-list{
+    color: #d8dee9;
+}
+
+#projects-item{
+
+}
+
 .contacts{
+    
+}
+
+.contacts-list{
+    color: #d8dee9;
+}
+
+.contacts-item{
 
 }
