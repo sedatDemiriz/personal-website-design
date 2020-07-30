@@ -31,11 +31,14 @@ body {
 }
 
 .container {
-    width: 60%;
+    width: 70%;
     background-color: #4c566a;
     padding: 1rem 1rem 1rem 1rem;
     margin-left: auto;
     margin-right: auto;
+    
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px black;
 }
 
 .header{
@@ -49,12 +52,18 @@ body {
 }
 
 .menubar{
-    color: #d8dee9;
+    
 }
 
 .menu-list{
     background-color: #3b4252;
+
     padding: 0.74rem 0.74rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px black;
+
+    /* display: flex; */
+    /* justify-content: space-evenly; */
 }
 
 #menu-item{
@@ -69,6 +78,7 @@ body {
 
 .bio {
     color: #d8dee9;
+    display: flex;
     text-align: center;
 }
 
@@ -87,7 +97,8 @@ body {
 }
 
 .projects-list{
-    
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #projects-item{
@@ -101,7 +112,7 @@ body {
 }
 
 .contacts-list{
-    
+    display: flex;
 }
 
 .contacts-item{
