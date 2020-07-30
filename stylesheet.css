@@ -37,7 +37,7 @@ body {
 
     /* Layout */
     width: 90%;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
     margin-left: auto;
     margin-right: auto;
     
@@ -99,6 +99,11 @@ body {
     /* Layout */
     display: flex;
     text-align: center;
+}
+
+.headshot{
+    /* Effects */
+    border-radius: 1rem;
 }
 
 .bio-text{
