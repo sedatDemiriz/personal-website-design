@@ -27,16 +27,25 @@ aurora:
 */
 
 body {
+    background-color: #3b4252;
+}
+
+.container {
+    width: 80%;
     background-color: #4c566a;
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header{
     color: #d8dee9;
-    text-align: center;
+    text-align: left;
 }
 
 #segment{
     color: #d8dee9;
+    text-align: left;
 }
 
 .menubar{
