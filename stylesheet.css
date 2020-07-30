@@ -31,9 +31,9 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 60%;
     background-color: #4c566a;
-    padding: 2rem;
+    padding: 1rem 1rem 1rem 1rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -44,7 +44,7 @@ body {
 }
 
 #segment{
-    color: #d8dee9;
+    color: #88c0d0;
     text-align: left;
 }
 
