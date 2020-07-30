@@ -27,27 +27,38 @@ aurora:
 */
 
 body {
+    /* Coloring */
     background-color: #3b4252;
 }
 
 .container {
-    width: 70%;
+    /* Coloring */
     background-color: #4c566a;
+
+    /* Layout */
+    width: 90%;
     padding: 1rem 1rem 1rem 1rem;
     margin-left: auto;
     margin-right: auto;
     
+    /* Effects */
     border-radius: 1rem;
-    box-shadow: 3px 3px 3px black;
+    box-shadow: 0px 3px 6px black;
 }
 
 .header{
+    /* Coloring */
     color: #d8dee9;
+
+    /* Layout */
     text-align: left;
 }
 
 #segment{
+    /* Coloring */
     color: #88c0d0;
+
+    /* Layout */
     text-align: left;
 }
 
@@ -56,28 +67,36 @@ body {
 }
 
 .menu-list{
+    /* Coloring */
     background-color: #3b4252;
 
+    /* Layout */
     padding: 0.74rem 0.74rem;
-    border-radius: 1rem;
-    box-shadow: 3px 3px 3px black;
 
-    /* display: flex; */
-    /* justify-content: space-evenly; */
+    /* Effects */
+    border-radius: 1rem;
+    box-shadow: 0px 3px 6px black;
 }
 
 #menu-item{
+    /* Coloring */
     color: #d8dee9;
+
+    /* Layout */
     text-decoration: none;
     padding: 0.75rem;
 }
 
 #menu-item:hover{
+    /* Coloring */
     background-color: #5e81ac;
 }
 
 .bio {
+    /* Coloring */
     color: #d8dee9;
+
+    /* Layout */
     display: flex;
     text-align: center;
 }
@@ -87,31 +106,50 @@ body {
 }
 
 .resume{
+    /* Coloring */
     color: #d8dee9;
+
+    /* Layout */
     text-align: center;
 }
 
 .projects{
+    /* Coloring */
     color: #d8dee9;
     text-align: center;
 }
 
 .projects-list{
+    /* Layout */
     display: flex;
     justify-content: space-evenly;
 }
 
 #projects-item{
-    
+    /* Coloring */
+    background-color: #d8dee9;
+    color: #b48ead; 
+
+    /* Layout */
+    align-items: stretch;
+    padding: 1rem;       
+
+    /* Effects */
+    border-radius: 1rem;
+    box-shadow: 0px 3px 6px black;
 }
 
 .contacts{
+    /* Coloring */
     color: #d8dee9;
+
+    /* Layout */
     text-align: center;
     text-decoration: none;
 }
 
 .contacts-list{
+    /* Layout */
     display: flex;
 }
 
