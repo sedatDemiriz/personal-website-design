@@ -101,12 +101,13 @@ body {
     background-color: #d8dee9;
 
     /* Layout */
+    width: 90%;
     text-align: justify;
     align-items: center;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;    
+    
 }
 
 #headshot {
@@ -130,18 +131,18 @@ body {
 }
 
 #resume {
-    /* Coloring */
-    color: #d8dee9;
-
     /* Layout */
-    text-align: center;
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #resume-list {
     /* Layout */
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0rem;
+    margin: 0rem;
 }
 
 .resume-item {
@@ -150,32 +151,46 @@ body {
     color: #b48ead;
 
     /* Layout */
-    align-items: stretch;
-    padding: 0.5rem;
-    width: 30%;
+    text-align: left;
+    display: flex;
+    margin: .5rem 0rem .5rem 0rem;
+}
+
+.resume-img {
+    padding: .5rem 1rem;
+    margin: .5rem 0rem .5rem 1rem;
+}
+
+.resume-item-title {
+    width: 10rem;
+    padding: .5rem 1rem;
+    margin: .5rem 0rem .5rem 0rem;
 }
 
 .resume-subitem-list {
     /* Layout */
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0rem;
+    margin: 0rem;
 }
 
 .resume-subitem {
     /* Coloring */
+    color: #d8dee9;
     background-color: #5e81ac;
 
     /* Layout */
-    width: 20%;
-    padding: 0.3rem 0.5rem;
+    padding: .5rem 1rem;
+    margin: .5rem .2rem;
+    width: 3rem;
+    text-align: center;
 }
 
 #projects {
-    /* Coloring */
-    color: #d8dee9;
-    text-align: center;
+    text-align: justify;
 }
 
 #projects-list {
@@ -230,6 +245,7 @@ body {
 }
 
 .round {
+    /* Effects */
     border-radius: 1rem;
 }
 
