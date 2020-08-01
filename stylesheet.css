@@ -46,7 +46,7 @@ body {
     
     /* Effects */
     border-radius: 1rem;
-    box-shadow: 0px 3px 6px black;
+    /* box-shadow: 0px 3px 6px black; */
 }
 
 .segment{
@@ -84,11 +84,6 @@ body {
     text-decoration: none;
     padding: .7rem 1rem .7rem 1rem;
     margin: 0rem 1rem;
-
-    /* Effects */
-    box-shadow: 0px 3px 6px black;
-    border-radius: 1rem;    
-    outline: none;
 }
 
 .menu-item:hover{
@@ -108,14 +103,10 @@ body {
     justify-content: center;
     text-align: justify;
     align-items: center;
-    border-radius: 1rem;
     display: flex;
     margin: auto;
     width: 90%;
     margin-top: 2rem;
-
-    /* Effects */
-    box-shadow: 0px 3px 12px black;
 }
 
 #headshot{
@@ -161,10 +152,6 @@ body {
     align-items: stretch;
     padding: 0.5rem;
     width: 30%;
-
-    /* Effects */
-    border-radius: 1rem;
-    box-shadow: 0px 3px 6px black;
 }
 
 .resume-subitem-list{
@@ -180,12 +167,8 @@ body {
     background-color: #5e81ac;
 
     /* Layout */
-    border-radius: 1rem;
     width: 20%;
     padding: 0.3rem 0.5rem;
-
-    /* Effects */
-    box-shadow: 0px 3px 12px black;
 }
 
 #projects{
@@ -210,10 +193,6 @@ body {
     align-items: stretch;
     padding: 1rem;
     width: 30%;
-
-    /* Effects */
-    border-radius: 1rem;
-    box-shadow: 0px 3px 6px black;
 }
 
 .projects-item:hover{
@@ -242,3 +221,14 @@ body {
 #contacts-item{
 
 }
+
+.shadow {
+    /* Effects */
+    box-shadow: 0px 3px 12px black;
+    outline: none;
+}
+
+.round{
+    border-radius: 1rem;
+}
+
