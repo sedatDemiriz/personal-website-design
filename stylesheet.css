@@ -54,7 +54,8 @@ body {
     color: #88c0d0;
 
     /* Layout */
-    text-align: left;
+    text-align: center;
+    margin: 5rem;
 }
 
 .menubar{
