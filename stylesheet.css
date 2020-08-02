@@ -32,6 +32,10 @@ body {
     /* Coloring */
     background-color: #3b4252;
     font-family: Merriweather;
+
+    /* Misc Attributes */
+    -moz-user-select: none;
+    -webkit-user-select: none;
 }
 
 #container {
@@ -80,7 +84,7 @@ body {
     font-weight: bolder;
 
     /* Layout */
-    width: 5rem;
+    width: 6rem;
     text-align: center;
     text-decoration: none;
     padding: .7rem 1rem .7rem 1rem;
@@ -107,12 +111,11 @@ body {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 #headshot {
     /* Layout */
-    width: 30%;
+    width: 25%;
     padding: 2rem;
     margin-left: 3rem;
 }
@@ -122,7 +125,7 @@ body {
     color: #b48ead;
 
     /* Layout */
-    width: 55%;
+    width: 60%;
     margin-left: 2rem;
     margin-right: 3rem;
 
@@ -157,11 +160,13 @@ body {
 }
 
 .resume-img {
+    /* Layout */
     padding: .5rem 1rem;
     margin: .5rem 0rem .5rem 1rem;
 }
 
 .resume-item-title {
+    /* Layout */
     width: 10rem;
     padding: .5rem 1rem;
     margin: .5rem 0rem .5rem 0rem;
@@ -189,15 +194,54 @@ body {
     text-align: center;
 }
 
-#projects {
-    text-align: justify;
+#experience {
+    /* Layout */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
 }
 
-#projects-list {
+.exp-item {
+    /* Coloring */
+    background-color: #d8dee9;
+    color: #b48ead;
+
     /* Layout */
     display: flex;
+    justify-content: center;
+    margin: 1rem 0rem;
+}
+
+.exp-item-img {
+    /* Layout */
+    width: 15%;
+    padding: 1.5rem 2rem;
+}
+
+.exp-item-list {
+    /* Layout */
+    width: 45%;
+    padding: 1rem 2rem;
+}
+
+.exp-item-title {
+    
+}
+
+.exp-item-text {
+
+}
+
+#projects {
+    /* Layout */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .projects-item {
@@ -207,8 +251,11 @@ body {
 
     /* Layout */
     align-items: stretch;
+    text-align: justify;
     padding: 1rem;
-    width: 30%;
+    margin-left: .1rem;
+    margin-right: .1rem;
+    width: 25%;
 }
 
 .projects-item:hover {
