@@ -59,7 +59,7 @@ body {
     margin-bottom: 2.5rem;
 
     /* Font */
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 1.5rem;
 }
 
@@ -105,12 +105,9 @@ body {
     background-color: #d8dee9;
 
     /* Layout */
-    width: 90%;
     text-align: justify;
     align-items: center;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #headshot {
@@ -131,13 +128,6 @@ body {
 
     /* Font */
     font-weight: bolder;
-}
-
-#resume {
-    /* Layout */
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #resume-list {
@@ -195,10 +185,6 @@ body {
 }
 
 #experience {
-    /* Layout */
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     flex-direction: column;
 }
@@ -236,9 +222,6 @@ body {
 
 #projects {
     /* Layout */
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -294,5 +277,12 @@ body {
 .round {
     /* Effects */
     border-radius: 1rem;
+}
+
+.container {
+    /* Layout */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
