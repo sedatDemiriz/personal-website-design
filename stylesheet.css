@@ -71,10 +71,6 @@ body {
     justify-content: center;
 }
 
-#menu-list {
-
-}
-
 .menu-item {
     /* Coloring */
     color: #d8dee9;
@@ -265,7 +261,7 @@ body {
 }
 
 #contacts-item {
-
+    
 }
 
 .shadow {
