@@ -67,12 +67,12 @@ body {
     /* Layout */
     padding: .5rem 2rem;
     margin-top: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 #menu-list {
-    /* Layout */
-    display: flex;
-    justify-content: center;
+
 }
 
 .menu-item {
