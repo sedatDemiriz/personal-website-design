@@ -49,6 +49,18 @@ body {
     margin-right: auto;
 }
 
+@media only screen and (max-width: 600px) {
+    #container {
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #container {
+        width: 99%;
+    }
+}
+
 .sub-title {
     /* Coloring */
     color: #88c0d0;
