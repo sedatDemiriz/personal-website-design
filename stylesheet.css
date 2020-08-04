@@ -114,20 +114,28 @@ body {
 }
 
 #bio-stack {
-    
+    width: 60%;
 }
 
 #bio-text {
     /* Coloring */
     color: #b48ead;
 
-    /* Layout */
-    width: 60%;
+    /* Layout */    
     margin-left: 2rem;
     margin-right: 3rem;
 
     /* Font */
     font-weight: bolder;
+}
+
+#bio-link-list {
+    display: flex;
+    justify-content: center;
+}
+
+.bio-link {
+    padding: 2rem 3rem 2rem 3rem;
 }
 
 #resume-list {
