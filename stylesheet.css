@@ -106,11 +106,15 @@ body {
     display: flex;
 }
 
-#headshot {
+#bio-headshot {
     /* Layout */
     width: 25%;
     padding: 2rem;
     margin-left: 3rem;
+}
+
+#bio-stack {
+    
 }
 
 #bio-text {
