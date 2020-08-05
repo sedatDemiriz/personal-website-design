@@ -51,12 +51,14 @@ body {
 
 @media only screen and (max-width: 600px) {
     #container {
+        /* Layout */
         width: 90%;
     }
 }
 
 @media only screen and (max-width: 1000px) {
     #container {
+        /* Layout */
         width: 90%;
     }
 }
@@ -86,12 +88,14 @@ body {
 
 @media only screen and (max-width: 600px) {
     #menubar {
+        /* Layout */
         flex-wrap: wrap;
     }
 }
 
 @media only screen and (max-width: 1000px) {
     #menubar {
+        /* Layout */
         flex-wrap: wrap;
     }
 }
@@ -114,12 +118,14 @@ body {
 
 @media only screen and (max-width: 600px) {
     .menu-item {
+        /* Layout */
         width: 5.5rem;
     }
 }
 
 @media only screen and (max-width: 1000px) {
     .menu-item {
+        /* Layout */
         width: 5.5rem;
     }
 }
@@ -151,6 +157,7 @@ body {
 }
 
 #bio-stack {
+    /* Layout */
     width: 60%;
 }
 
@@ -167,21 +174,25 @@ body {
 }
 
 #bio-link-list {
+    /* Layout */
     display: flex;
     justify-content: center;
 }
 
 .bio-link {
+    /* Layout */
     padding: 2rem 3rem 2rem 3rem;
 }
 
 @media only screen and (max-width: 600px) {
 
     #bio-stack {
+        /* Layout */
         width: 80%;
     }
     
     #bio-headshot{
+        /* Layout */
         width: 50%;
         padding: .5rem;
         margin-left: 1rem;
@@ -189,6 +200,7 @@ body {
     }
 
     #bio-stack {
+        /* Layout */
         width: 50%;
         padding: .5rem;
         margin-right: 1rem;
@@ -196,10 +208,12 @@ body {
     }
 
     #bio-text {
+        /* Layout */
         padding: .5rem;
     }
 
     .bio-link {
+        /* Layout */
         padding: .5rem 3rem .5rem 3rem;
     }
 }
@@ -207,10 +221,12 @@ body {
 @media only screen and (max-width: 1000px) {
 
     #bio-stack {
+        /* Layout */
         width: 80%;
     }
 
     #bio-headshot{
+        /* Layout */
         width: 50%;
         padding: .5rem;
         margin-left: 1rem;
@@ -218,6 +234,7 @@ body {
     }
 
     #bio-stack {
+        /* Layout */
         width: 50%;
         padding: .5rem;
         margin-right: 1rem;
@@ -225,10 +242,12 @@ body {
     }
 
     #bio-text {
+        /* Layout */
         padding: .5rem;
     }
 
     .bio-link {
+        /* Layout */
         padding: .5rem 3rem .5rem 3rem;
     }
 }
