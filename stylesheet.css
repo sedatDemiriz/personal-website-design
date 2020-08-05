@@ -55,7 +55,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
     #container {
         width: 90%;
     }
@@ -80,6 +80,7 @@ body {
     padding: .5rem 2rem;
     margin-top: 1rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -89,7 +90,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
     #menubar {
         flex-wrap: wrap;
     }
@@ -108,20 +109,18 @@ body {
     text-align: center;
     text-decoration: none;
     padding: .7rem 1rem .7rem 1rem;
-    margin: 0rem 1rem;
+    margin: 0rem 1rem 1rem 0rem;
 }
 
 @media only screen and (max-width: 600px) {
     .menu-item {
         width: 5.5rem;
-        margin: 0rem 1rem 1rem 0rem;
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
     .menu-item {
         width: 5.5rem;
-        margin: 0rem 1rem 1rem 0rem;
     }
 }
 
@@ -174,6 +173,64 @@ body {
 
 .bio-link {
     padding: 2rem 3rem 2rem 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #bio-stack {
+        width: 80%;
+    }
+    
+    #bio-headshot{
+        width: 50%;
+        padding: .5rem;
+        margin-left: 1rem;
+        margin-left: 1rem;
+    }
+
+    #bio-stack {
+        width: 50%;
+        padding: .5rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    #bio-text {
+        padding: .5rem;
+    }
+
+    .bio-link {
+        padding: .5rem 3rem .5rem 3rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    #bio-stack {
+        width: 80%;
+    }
+
+    #bio-headshot{
+        width: 50%;
+        padding: .5rem;
+        margin-left: 1rem;
+        margin-left: 1rem;
+    }
+
+    #bio-stack {
+        width: 50%;
+        padding: .5rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    #bio-text {
+        padding: .5rem;
+    }
+
+    .bio-link {
+        padding: .5rem 3rem .5rem 3rem;
+    }
 }
 
 #resume-list {
