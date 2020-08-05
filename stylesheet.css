@@ -56,7 +56,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1200px) {
     #container {
         /* Layout */
         width: 90%;
@@ -93,7 +93,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1200px) {
     #menubar {
         /* Layout */
         flex-wrap: wrap;
@@ -123,7 +123,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1200px) {
     .menu-item {
         /* Layout */
         width: 5.5rem;
@@ -218,7 +218,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1200px) {
 
     #bio-stack {
         /* Layout */
@@ -289,7 +289,7 @@ body {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     padding: 0rem;
     margin: 0rem;
 }
@@ -304,6 +304,36 @@ body {
     padding: .5rem 1rem;
     margin: .5rem .2rem;
     width: 3rem;    
+}
+
+@media only screen and (max-width: 600px) {
+
+    .resume-img { 
+        margin: auto .5rem;
+    }
+
+    .resume-item-title {
+        margin: auto .5rem;
+    }
+
+    .resume-subitem {
+        margin: .3rem .2rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .resume-img { 
+        margin: auto 1rem;
+    }
+
+    .resume-item-title {
+        margin: auto .5rem;
+    }
+
+    .resume-subitem {
+        margin: .3rem .2rem;
+    }
 }
 
 #experience {
