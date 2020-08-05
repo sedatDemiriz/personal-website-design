@@ -56,7 +56,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1500px) {
     #container {
         /* Layout */
         width: 90%;
@@ -93,7 +93,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1500px) {
     #menubar {
         /* Layout */
         flex-wrap: wrap;
@@ -123,7 +123,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1500px) {
     .menu-item {
         /* Layout */
         width: 5.5rem;
@@ -218,7 +218,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1500px) {
 
     #bio-stack {
         /* Layout */
